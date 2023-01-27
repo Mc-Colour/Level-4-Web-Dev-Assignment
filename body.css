@@ -1,0 +1,29 @@
+/* Styling for the entire body of every page */
+body {
+    background-color: black;
+}
+#mainBody {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#firstSection{
+    height: 100vh;
+    /* Flex makes it easier to position elements without disturbing other elements */
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(src/images/dark.gif);
+    padding-top: -10%;
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+#secondSection{
+    color: aliceblue;
+}

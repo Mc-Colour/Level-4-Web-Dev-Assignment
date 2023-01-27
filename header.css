@@ -1,0 +1,51 @@
+
+/* Variables */
+:root {
+    /* Chose a readable font family to use */
+    --font:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+/* Styling for the header container */
+header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    position:fixed;
+    /* Sets the font to the one defined in the :root section */
+    font-family: var(--font);
+    background-color: #000000;
+    
+}
+
+/* Styling for the items in the actual navigation bar */
+.topHeader {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+
+/* Home button styling */
+#home{
+    max-width: 100%;
+    min-width: 30%;
+    height: auto;
+    top: 10%;
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+
+/* Styling for the navigation links */
+.link img{
+    max-width: 75%;
+    min-width: 70%;
+    height: auto;
+    text-decoration: none;
+    /* Stops the elements overlapping and positions them better */
+    position: relative;
+}
+.link img:hover {
+    background: rgba(0, 255, 204, 0.467);
+    border-radius: 20px;
+
+}
