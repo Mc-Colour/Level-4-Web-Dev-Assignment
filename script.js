@@ -1,3 +1,18 @@
+
+
+const addHTML = () => {
+//     document.querySelector('#header').innerHTML = `
+//     <p>hi</p>
+// `;
+    $.get("header.html", function(data) {
+        $("#header").html(data);
+        alert("Ok. Load.");
+    });
+}
+
+
+
+
 // header scrolling effect
 $(window).on('scroll', function(){
     // If the scroll position > 0 the code inside if statement executes
@@ -11,3 +26,7 @@ $(window).on('scroll', function(){
     }
 
 })
+
+window.onload = () => {
+    addHTML();
+}
