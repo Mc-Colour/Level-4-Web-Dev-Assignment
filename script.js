@@ -10,9 +10,6 @@ const addHTML = () => {
     });
 }
 
-
-
-
 // header scrolling effect
 $(window).on('scroll', function(){
     // If the scroll position > 0 the code inside if statement executes
