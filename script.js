@@ -4,7 +4,7 @@ const addHTML = () => {
 //     document.querySelector('#header').innerHTML = `
 //     <p>hi</p>
 // `;
-    $.get("header.html", function(data) {
+    $.get("/pages/header.html", function(data) {
         $("#header").html(data);
         alert("Ok. Load.");
     });
