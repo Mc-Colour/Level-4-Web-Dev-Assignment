@@ -1,12 +1,21 @@
 /* Styling for the entire body of every page */
+
+:root {
+    /* Chose a readable font family to use */
+    --font:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
 body {
     background-color: black;
+    scroll-behavior: smooth;
 }
 #mainBody {
     padding: 0;
     width: 100%;
     height: 100%;
     padding-top: 50px;
+    color:aliceblue;
+    font-family: var(--font);
 }
 
 #firstSection{
@@ -14,16 +23,28 @@ body {
     /* Flex makes it easier to position elements without disturbing other elements */
     display: flex;
     flex-direction: column;
-    color: aliceblue;
-    align-items: center;
     justify-content: space-evenly;
     background: url(src/images/dark.gif);
+    /* Stops it overlapping with header on page load */
     padding-top: -10%;
-    background-size: 100%;
+    /* Good size on all screen sizes */
+    background-size: 80%;
+    /* we want the gif to be centered */
     background-position:center;
+    /* Stops the gif from being tiled across the page */
     background-repeat: no-repeat;
 }
-
-#secondSection{
-    color: aliceblue;
+#secondSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#secondSection .profile{
+    width: 20%;
+    height: auto;
+    /* make image round */
+    border-radius: 50%;
+}
+#secondSection .about{
+    width: 30%
 }

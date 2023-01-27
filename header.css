@@ -13,14 +13,29 @@ header{
     position:fixed;
     /* Sets the font to the one defined in the :root section */
     font-family: var(--font);
-    background-color: #000000;
     
+}
+
+header:hover{
+    opacity: 1;
+    background-color: black;
+}
+
+.showTopHeader{
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+
+.hideTopHeader{
+    transition-duration: 0.5s;
+    opacity: 0;
 }
 
 /* Styling for the items in the actual navigation bar */
 .topHeader {
     display: inline-flex;
     font-size: 20px;
+    list-style: none;
 }
 
 
@@ -40,7 +55,6 @@ header{
     max-width: 75%;
     min-width: 70%;
     height: auto;
-    text-decoration: none;
     /* Stops the elements overlapping and positions them better */
     position: relative;
 }
@@ -49,3 +63,5 @@ header{
     border-radius: 20px;
 
 }
+
+
