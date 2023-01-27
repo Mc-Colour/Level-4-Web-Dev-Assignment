@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background: url(src/images/dark.gif);
+    background: url(../src/images/dark.gif);
     /* Stops it overlapping with header on page load */
     padding-top: -10%;
     /* Good size on all screen sizes */
