@@ -34,6 +34,9 @@ body {
     /* Stops the gif from being tiled across the page */
     background-repeat: no-repeat;
 }
+#firstSectionNotHome{
+    height: 25vh;
+}
 #secondSection {
     display: flex;
     align-items: center;
