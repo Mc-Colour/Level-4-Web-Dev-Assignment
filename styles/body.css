@@ -73,7 +73,6 @@ body {
 #headingImage {
     display: flex;
     justify-content: center;
-    padding-right: 10%;
     padding-bottom: 5%;
 }
 
