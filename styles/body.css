@@ -41,6 +41,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 50px;
 }
 #secondSection .profile{
     width: 20%;
@@ -53,26 +54,28 @@ body {
 }
 
 #secondSection .notes{
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
 
 #thirdSection {
     padding-top: 20%;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 #thirdSection .notes{
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
 #headingImage {
     display: flex;
     justify-content: center;
+    padding-right: 10%;
     padding-bottom: 5%;
 }
 
