@@ -1,8 +1,9 @@
 /* Styling for the entire body of every page */
 
-:root {
-    /* Chose a readable font family to use */
-    --font:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+/* custom font */
+@font-face {
+    font-family: myHandwriting;
+    src: url(../src/font/customFont.ttf);
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     height: 100%;
     padding-top: 50px;
     color:aliceblue;
-    font-family: var(--font);
+    font-family: myHandwriting;
 }
 
 #firstSection{

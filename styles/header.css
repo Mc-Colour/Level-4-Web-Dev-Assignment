@@ -1,9 +1,5 @@
 
-/* Variables */
-:root {
-    /* Chose a readable font family to use */
-    --font:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-}
+
 
 /* Styling for the header container */
 header{
@@ -12,7 +8,8 @@ header{
     justify-content: space-around;
     position:fixed;
     /* Sets the font to the one defined in the :root section */
-    font-family: var(--font);
+    font-family: myHandwriting;
+    font-size: 30px;
     
 }
 
@@ -34,31 +31,32 @@ header:hover{
 /* Styling for the items in the actual navigation bar */
 .topHeader {
     display: inline-flex;
-    font-size: 20px;
+    font-size: 30px;
     list-style: none;
 }
 
 
 /* Home button styling */
-#home{
-    max-width: 100%;
-    min-width: 30%;
-    height: auto;
-    top: 10%;
-    margin: 5px;
-    padding: 5px 5px;
+#home {
+    padding-top: 25px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 40px;
 }
 
 
 /* Styling for the navigation links */
-.link img{
-    max-width: 75%;
-    min-width: 70%;
-    height: auto;
+.link {
+    text-decoration: none;
+    /* Off-white because I do not want to blind anyone */
+    color:aliceblue;
     /* Stops the elements overlapping and positions them better */
     position: relative;
+    /* Adds spacing between the header elements */
+    margin: 5px;
+    padding: 5px 5px;
 }
-.link img:hover {
+.link:hover {
     background: rgba(0, 255, 204, 0.467);
     border-radius: 20px;
 
