@@ -28,7 +28,7 @@ body {
     /* Stops it overlapping with header on page load */
     padding-top: -10%;
     /* Good size on all screen sizes */
-    background-size: 80%;
+    background-size: 60%;
     /* we want the gif to be centered */
     background-position:center;
     /* Stops the gif from being tiled across the page */
@@ -46,5 +46,44 @@ body {
     border-radius: 50%;
 }
 #secondSection .about{
-    width: 30%
+    width: 50%
+}
+
+#secondSection .notes{
+    width: 50%;
+    height: auto;
+}
+
+
+
+#thirdSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#thirdSection .notes{
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+#headingImage {
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+#headingImage .aboutTitle{
+    width: 30%;
+}
+#notes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
