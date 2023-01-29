@@ -51,7 +51,8 @@ body {
     border-radius: 50%;
 }
 #secondSection .about{
-    width: 50%
+    font-size: 30px;
+    width: 50vw;
 }
 
 #secondSection .notes{
@@ -73,13 +74,12 @@ body {
     height: auto;
 }
 
-#headingImage {
+#headings {
     display: flex;
     justify-content: center;
     padding-right: 10%;
-    padding-bottom: 5%;
 }
 
-#headingImage .aboutTitle{
-    width: 30%;
+#headings .subHeading{
+    font-size: 50px;
 }
