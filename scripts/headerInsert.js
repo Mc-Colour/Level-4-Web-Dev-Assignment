@@ -1,9 +1,8 @@
 const addHTML = () => {
-    alert("loaded");
     $.get("header.html", function(data) {
-        alert(data);
         $("#header").html(data);
     });
+    alert(data);
 }
 window.onload = () => {
     addHTML();
