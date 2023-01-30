@@ -17,11 +17,6 @@ header:hover{
 
 .showTopHeader{
     transition-duration: 0.5s;
-    opacity: 1;
-}
-
-.hideTopHeader{
-    transition-duration: 0.5s;
     opacity: 0;
 }
 
