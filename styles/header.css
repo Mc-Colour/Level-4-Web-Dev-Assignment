@@ -23,11 +23,6 @@ header:hover{
     opacity: 1;
 }
 
-.hideTopHeader{
-    transition-duration: 0.5s;
-    opacity: 0;
-}
-
 /* Styling for the items in the actual navigation bar */
 .topHeader {
     display: inline-flex;
