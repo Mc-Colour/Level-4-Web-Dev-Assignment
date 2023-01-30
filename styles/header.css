@@ -7,7 +7,8 @@ header{
     /* Sets the font to the one defined in the :root section */
     font-family: myHandwriting;
     font-size: 30px;
-    
+    background-color: black;
+    height: 40px;
 }
 
 header:hover{
@@ -15,22 +16,24 @@ header:hover{
     background-color: black;
 }
 
-.showTopHeader{
+.hideHeader{
     transition-duration: 0.5s;
     opacity: 0;
 }
 
 /* Styling for the items in the actual navigation bar */
 .topHeader {
+    margin-top: 8px;
     display: inline-flex;
     font-size: 30px;
     list-style: none;
+    position: relative;
 }
 
 
 /* Home button styling */
 #home {
-    padding-top: 25px;
+    /* padding-top: 25px; */
     text-decoration: none;
     color: aliceblue;
     font-size: 40px;
@@ -49,8 +52,46 @@ header:hover{
     padding: 5px 5px;
 }
 .link:hover {
-    background: rgba(0, 255, 204, 0.467);
+    background: rgba(0, 255, 200, 0.689);
     border-radius: 20px;
+    color: black;
 
 }
 
+#burgerLogo {
+    width: 30px;
+    padding-top: 8px;
+    opacity: 0;
+    display: block;
+}
+
+.sideHeader {
+    /* Stops break in border */
+    margin-top: 50px;
+    overflow-x:hidden;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    font-family: myHandwriting;
+    font-size: 30px;
+    width:80px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(0, 255, 200);
+    margin-left: 80vw;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out; 
+}
+.sideHeader .link{
+    margin-right: 40px;
+}
+.showSideHeader { 
+    display: flex;  
+}
+.sideHeaderTransition {  
+    opacity: 1;
+}

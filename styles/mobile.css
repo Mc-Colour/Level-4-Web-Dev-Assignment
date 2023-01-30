@@ -1,4 +1,28 @@
 @media only screen and (max-width: 1000px) {
+
+    header{
+        border-radius: 0 0 2.5px 2.5px;
+        background-color: black;
+        /* margin-top: px; */
+        height: 40px;
+    }
+    header .topHeader {
+        align-items: right;
+    }
+
+    .topHeader {
+        display: none;
+    }
+    
+    #burgerLogo {
+        opacity: 1;
+        cursor:pointer;
+    }
+
+    
+
+
+
     .mainBodySections {
         display: flex;
         flex-direction: column;
