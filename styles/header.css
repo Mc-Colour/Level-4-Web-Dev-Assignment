@@ -64,7 +64,12 @@ header:hover{
     opacity: 0;
     display: block;
 }
-
+#sideHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
 .sideHeader {
     /* Stops break in border */
     margin-top: 50px;
@@ -81,7 +86,7 @@ header:hover{
     border-radius: 10px;
     border: solid;
     border-color: rgb(0, 255, 200);
-    margin-left: 80vw;
+    background-color: black;
     display: none;
     opacity: 0;
     transition: all 0.5s ease-in-out; 

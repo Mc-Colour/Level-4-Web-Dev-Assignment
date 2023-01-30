@@ -9,6 +9,9 @@
     header .topHeader {
         align-items: right;
     }
+    .hideHeader {
+        opacity: 1;
+    }
 
     .topHeader {
         display: none;
