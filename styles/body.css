@@ -76,7 +76,6 @@ body {
 #headings {
     display: flex;
     justify-content: center;
-    padding-right: 10%;
 }
 
 #headings .subHeading{
