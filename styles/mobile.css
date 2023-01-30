@@ -9,6 +9,7 @@
     .paragraphs{
         font-size: 30px;
         width: 100vw;
+        flex-direction: column;
     }
     
 }
