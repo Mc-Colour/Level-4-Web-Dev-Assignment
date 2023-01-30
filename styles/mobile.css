@@ -1,6 +1,14 @@
 @media only screen and (max-width: 1000px) {
-    #firstSection {
-        background: url(../src/images/cpuCover.JPG)
+    .mainBodySections {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 50px;
+        padding-bottom: 20vh;   
+    }
+    .paragraphs{
+        font-size: 30px;
+        width: 100vw;
     }
     
 }
