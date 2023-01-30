@@ -6,9 +6,13 @@
     src: url(../src/font/customFont.ttf);
 }
 
+/* Make the scrolling less jankey */
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
-    scroll-behavior: smooth;
 }
 #mainBody {
     padding: 0;
@@ -44,13 +48,8 @@ body {
     justify-content: space-evenly;
     padding-left: 50px;
 }
-#secondSection .profile{
-    width: 20%;
-    height: auto;
-    /* make image round */
-    border-radius: 50%;
-}
-#secondSection .about{
+
+.paragraphs{
     font-size: 30px;
     width: 50vw;
 }
@@ -82,4 +81,18 @@ body {
 
 #headings .subHeading{
     font-size: 50px;
+}
+
+.mainBodySections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-bottom: 20vh;   
+}
+.logo{
+    width: 20%;
+    height: auto;
+    /* make image round */
+    border-radius: 50%;
 }
