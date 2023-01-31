@@ -47,5 +47,5 @@ function disableSideDisplay() {
 }
 
 window.onload = () => {
-    showSideHeader();
+    setTimeout(showSideHeader, 600);
 }
