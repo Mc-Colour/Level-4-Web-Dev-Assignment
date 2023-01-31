@@ -33,7 +33,7 @@ body {
     /* Stops it overlapping with header on page load */
     padding-top: -10%;
     /* Good size on all screen sizes */
-    background-size: 60%;
+    background-size: 50%;
     /* we want the gif to be centered */
     background-position:center;
     /* Stops the gif from being tiled across the page */
