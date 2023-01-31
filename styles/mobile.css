@@ -9,9 +9,6 @@
     header .topHeader {
         align-items: right;
     }
-    .hideHeader {
-        opacity: 1;
-    }
 
     .topHeader {
         display: none;
@@ -25,6 +22,10 @@
     
 
 
+    #firstSection{
+        background-image: url(../src/images/cover.JPG);
+        background-size: 100%;
+    }
 
     .mainBodySections {
         display: flex;

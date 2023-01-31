@@ -39,6 +39,9 @@ body {
     /* Stops the gif from being tiled across the page */
     background-repeat: no-repeat;
 }
+.cover {
+    display: none;
+}
 #firstSectionNotHome{
     height: 5vh;
 }
