@@ -22,8 +22,13 @@
     
 
 
-    #firstSection{
+    #homeCover{
         background-image: url(../src/images/cover.JPG);
+        background-size: 100%;
+    }
+
+    #notesCover{
+        background-image: url(../src/images/notesCoverMobile.JPG);
         background-size: 100%;
     }
 
