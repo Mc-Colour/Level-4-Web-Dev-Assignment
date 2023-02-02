@@ -14,6 +14,7 @@ $(window).on('scroll', function(){
 })
 
 function showSideHeader() {
+    const burger = document.querySelector(".burger");
     const sideHeader = document.querySelector(".sideHeader");
     alert("click");
     clearTimeout(transitionTimer);
@@ -46,7 +47,6 @@ function disableSideDisplay() {
 }
 
 window.onload = () => {
-    const burger = document.querySelector(".burger");
     burger.onclick = () => {
         showSideHeader();
     }
