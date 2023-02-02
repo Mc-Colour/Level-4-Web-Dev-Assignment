@@ -57,7 +57,9 @@ header:hover{
     color: black;
 
 }
-
+.burger {
+    display: block;
+}
 #burgerLogo {
     width: 30px;
     padding-top: 8px;
