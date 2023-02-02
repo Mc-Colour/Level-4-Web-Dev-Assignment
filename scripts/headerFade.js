@@ -14,10 +14,7 @@ $(window).on('scroll', function(){
 })
 
 function showSideHeader() {
-    const burger = document.querySelector("burger");
     const sideHeader = document.querySelector(".sideHeader");
-    burger.onClick = () => {
-      alert("click");
         clearTimeout(transitionTimer);
         if ((sideHeader.classList.contains("showSideHeader")) || (sideHeader.classList.contains("sideHeaderTransition"))){
             disableSideFade();
@@ -26,7 +23,6 @@ function showSideHeader() {
             enableSideDisplay();
             transitionTimer = setTimeout(enableSideFade);
         }  
-    }
 }
 
 function enableSideFade() {
@@ -49,4 +45,8 @@ function disableSideDisplay() {
 window.onload = () => {
     showSideHeader();
     alert("fade script loaded")
+    const burger = document.querySelector("#burgerLogo");
+    disableSideDisplay();
+    burger.addEventListener("click", showSideHeader);
+
 }
