@@ -74,7 +74,7 @@ header:hover{
     /* Stops break in border */
     margin-top: 50px;
     overflow-x:hidden;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
