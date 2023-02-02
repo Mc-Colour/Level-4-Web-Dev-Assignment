@@ -44,7 +44,6 @@ function disableSideDisplay() {
 
 window.onload = () => {
     showSideHeader();
-    alert("fade script loaded")
     const burger = document.querySelector("#burgerLogo");
     disableSideDisplay();
     burger.addEventListener("click", showSideHeader);
