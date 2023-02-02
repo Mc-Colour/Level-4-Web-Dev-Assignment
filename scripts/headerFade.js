@@ -47,5 +47,6 @@ function disableSideDisplay() {
 }
 
 window.onload = () => {
-    
+    showSideHeader();
+    alert("fade script loaded")
 }
