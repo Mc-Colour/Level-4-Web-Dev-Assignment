@@ -17,6 +17,7 @@ function showSideHeader() {
     const burger = document.querySelector(".burger");
     const sideHeader = document.querySelector(".sideHeader");
     burger.onclick = () => {
+        alert("click");
         clearTimeout(transitionTimer);
         if ((sideHeader.classList.contains("showSideHeader")) || (sideHeader.classList.contains("sideHeaderTransition"))){
             disableSideFade();
