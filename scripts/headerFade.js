@@ -16,17 +16,17 @@ $(window).on('scroll', function(){
 function showSideHeader() {
     const burger = document.querySelector(".burger");
     const sideHeader = document.querySelector(".sideHeader");
-    alert("click");
-    clearTimeout(transitionTimer);
-    if ((sideHeader.classList.contains("showSideHeader")) || (sideHeader.classList.contains("sideHeaderTransition"))){
-        disableSideFade();
-        transitionTime = setTimeout(disableSideDisplay,600);
-    } else {
-        enableSideDisplay();
-        transitionTimer = setTimeout(enableSideFade);
+    burger.onClick = () => {
+      alert("click");
+        clearTimeout(transitionTimer);
+        if ((sideHeader.classList.contains("showSideHeader")) || (sideHeader.classList.contains("sideHeaderTransition"))){
+            disableSideFade();
+            transitionTime = setTimeout(disableSideDisplay,600);
+        } else {
+            enableSideDisplay();
+            transitionTimer = setTimeout(enableSideFade);
+        }  
     }
-    
-
 }
 
 function enableSideFade() {
@@ -47,7 +47,5 @@ function disableSideDisplay() {
 }
 
 window.onload = () => {
-    burger.onclick = () => {
-        showSideHeader();
-    }
+    
 }
