@@ -31,6 +31,10 @@
         background-image: url(../src/images/notesCoverMobile.JPG);
         background-size: 100%;
     }
+    #projectsCover{
+        background-image: url(../src/images/projectsCoverMobile.JPG);
+        background-size: 100%;
+    }
 
     .mainBodySections {
         display: flex;
