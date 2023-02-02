@@ -14,7 +14,7 @@ $(window).on('scroll', function(){
 })
 
 function showSideHeader() {
-    const burger = document.querySelector(".burger");
+    const burger = document.getElementById("burgerLogo");
     const sideHeader = document.querySelector(".sideHeader");
     burger.onClick = () => {
       alert("click");
