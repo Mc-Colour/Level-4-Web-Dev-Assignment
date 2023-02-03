@@ -15,8 +15,11 @@
     }
     
     #burgerLogo {
-        opacity: 1;
+        display:block;
         cursor:pointer;
+    }
+    #changeFont {
+        display:none;
     }
     #home {
         color: #00bc8e;

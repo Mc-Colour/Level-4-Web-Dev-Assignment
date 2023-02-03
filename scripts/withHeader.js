@@ -1,3 +1,9 @@
+const addHTML = () => {
+    $.get("../scripts/header.html", function(data) {
+        $("#header").html(data);
+    });
+}
+
 // Global Variables
 var transitionTimer;
 
@@ -54,6 +60,7 @@ function changeFontFunc() {
 
 
 window.onload = () => {
+    addHTML();
     const burger = document.querySelector("#burgerLogo");
     const changeFont = document.querySelector("#changeFont");
     const changeFontSide = document.querySelector("#changeFontSide");

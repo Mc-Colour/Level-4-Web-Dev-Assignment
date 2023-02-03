@@ -5,7 +5,7 @@ header{
     justify-content: space-around;
     position:fixed;
     /* Sets the font to the one defined in the :root section */
-    font-family: myHandwriting;
+    font-family: var(--main-font);
     font-size: 30px;
     background-color: black;
     height: 40px;
@@ -61,7 +61,17 @@ header:hover{
 #burgerLogo {
     width: 30px;
     padding-top: 8px;
-    opacity: 0;
+    display: none;
+}
+#changeFont {
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+#changeFontSide {
+    width: 30px;
+    margin-right:35px;
     display: block;
 }
 #sideHeader {
@@ -79,7 +89,7 @@ header:hover{
     flex-direction: column;
     justify-content: space-evenly;
     position: fixed;
-    font-family: myHandwriting;
+    font-family: var(--main-font);
     font-size: 30px;
     width:80px;
     align-items: center;
