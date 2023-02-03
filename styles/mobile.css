@@ -18,6 +18,9 @@
         opacity: 1;
         cursor:pointer;
     }
+    #home {
+        color: #00bc8e;
+    }
 
     
 
@@ -33,6 +36,14 @@
     }
     #projectsCover{
         background-image: url(../src/images/projectsCoverMobile.JPG);
+        background-size: 100%;
+    }
+    #bugsCover{
+        background-image: url(../src/images/bugsCoverMobile.JPG);
+        background-size: 100%;
+    }
+    #contactCover{
+        background-image: url(../src/images/contactCoverMobile.JPG);
         background-size: 100%;
     }
 

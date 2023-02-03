@@ -1,4 +1,8 @@
 /* Styling for the entire body of every page */
+/* Variables */
+:root {
+    --background-card-size: 60%;
+}
 
 /* custom font */
 @font-face {
@@ -33,7 +37,7 @@ body {
     /* Stops it overlapping with header on page load */
     padding-top: -10%;
     /* Good size on all screen sizes */
-    background-size: 50%;
+    background-size: var(--background-card-size);
     /* we want the gif to be centered */
     background-position:center;
     /* Stops the gif from being tiled across the page */
@@ -42,34 +46,46 @@ body {
 
 #notesCover{
     height: 100vh;
-    /* Flex makes it easier to position elements without disturbing other elements */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background: url(../src/images/notesCoverWide.JPG);
-    /* Stops it overlapping with header on page load */
     padding-top: -10%;
-    /* Good size on all screen sizes */
-    background-size: 50%;
-    /* we want the gif to be centered */
+    background-size: var(--background-card-size);
     background-position:center;
-    /* Stops the gif from being tiled across the page */
     background-repeat: no-repeat;
 }
 #projectsCover{
     height: 100vh;
-    /* Flex makes it easier to position elements without disturbing other elements */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background: url(../src/images/projectsCoverWide.JPG);
-    /* Stops it overlapping with header on page load */
     padding-top: -10%;
-    /* Good size on all screen sizes */
-    background-size: 50%;
-    /* we want the gif to be centered */
+    background-size: var(--background-card-size);
     background-position:center;
-    /* Stops the gif from being tiled across the page */
+    background-repeat: no-repeat;
+}
+#bugsCover{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url(../src/images/bugsCoverWide.JPG);
+    padding-top: -10%;
+    background-size: var(--background-card-size);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#contactCover{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url(../src/images/contactCoverWide.JPG);
+    padding-top: -10%;
+    background-size: var(--background-card-size);
+    background-position:center;
     background-repeat: no-repeat;
 }
 .cover {
