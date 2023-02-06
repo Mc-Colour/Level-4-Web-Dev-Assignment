@@ -92,36 +92,9 @@ body {
 .cover {
     display: none;
 }
-
-#secondSection {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-left: 50px;
-}
-
 .paragraphs{
     font-size: 30px;
     width: 50vw;
-}
-
-#secondSection .notes{
-    width: 60%;
-    height: auto;
-}
-
-
-#thirdSection {
-    padding-top: 5%;
-    padding-left: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#thirdSection .notes{
-    width: 60%;
-    height: auto;
 }
 
 #headings {
@@ -145,4 +118,16 @@ body {
     height: auto;
     /* make image round */
     border-radius: 50%;
+    
+}
+
+.noteCaptions {
+    font-size: 30px;
+    text-align: center;
+}
+
+.notes {
+    width: 60%;
+    height: auto;
+    padding-left: 17%;
 }
