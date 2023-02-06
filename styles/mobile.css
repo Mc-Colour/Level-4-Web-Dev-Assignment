@@ -73,5 +73,11 @@
     #eduLogo {
         order: 1;
     }
+    #netScanLogo {
+        order: 1;
+    }
+    #netScanPara {
+        order: 2;
+    }
     
 }
