@@ -1,27 +1,35 @@
-/* Styling for the header container */
+/* --------------------------------
+-----First Header Container-----
+-------------------------------- */
+
 header{
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
     position:fixed;
-    /* Sets the font to the one defined in the :root section */
+    /* Sets the font to the one defined in the :root section of body.css */
     font-family: var(--main-font);
     font-size: 30px;
     background-color: black;
     height: 40px;
 }
 
+/* Makes the header solid when the user hovers on it */
 header:hover{
     opacity: 1;
     background-color: black;
 }
 
+/* Class added to header by headerFade.js, hides the header, but the transition makes it a smooth animation */
 .hideHeader{
     transition-duration: 0.5s;
     opacity: 0;
 }
 
-/* Styling for the items in the actual navigation bar */
+/* ----------------------------
+-----Top Navigation Bar-----
+-------------------- -------*/
+
 .topHeader {
     margin-top: 8px;
     display: inline-flex;
@@ -51,6 +59,8 @@ header:hover{
     margin: 5px;
     padding: 5px 5px;
 }
+
+/* Link hover animation */
 .link:hover {
     background: rgba(0, 255, 200, 0.689);
     border-radius: 20px;
@@ -58,28 +68,40 @@ header:hover{
 
 }
 
+/* The burger */
 #burgerLogo {
     width: 30px;
     padding-top: 8px;
+    /* Hide the burger */
     display: none;
 }
+
+/* The accessibility button on top header*/
 #changeFont {
     width: 30px;
     padding: 0;
     margin: 0;
     display: block;
 }
+
+/* The accessibility button on side header */
 #changeFontSide {
     width: 30px;
     margin-right:35px;
     display: block;
 }
+
+/* -----------------------------
+-----Side Navigation Bar-----
+----------------------------- */
 #sideHeader {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 150px;
 }
+
+/* Flexes vertically as it must be suited to narrow screens */
 .sideHeader {
     /* Stops break in border */
     margin-top: 50px;
@@ -91,12 +113,14 @@ header:hover{
     position: fixed;
     font-family: var(--main-font);
     font-size: 30px;
+    /* Should be big enough for even the smallest screens */
     width:80px;
     align-items: center;
     border-radius: 10px;
     border: solid;
     border-color: #00bc8e;
     background-color: black;
+    /* Hide it until used on narrow screen (width < 1000) */
     display: none;
     opacity: 0;
     transition: all 0.5s ease-in-out; 
@@ -104,9 +128,13 @@ header:hover{
 .sideHeader .link{
     margin-right: 40px;
 }
+
+/* Actually enabling side header (used by headerFade.js) */
 .showSideHeader { 
     display: flex;  
 }
+
+/* The animation for side header (used by headerFade.js) */
 .sideHeaderTransition {  
     opacity: 1;
 }
