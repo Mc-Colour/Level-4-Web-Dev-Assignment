@@ -188,3 +188,43 @@ body {
     text-align: center;
 }
 
+/* --------------------------------
+-----Contact page specifics-----
+-------------------------------- */
+
+ /* Inputs */
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+    
+  }
+  label {
+    font-size: 30px;
+  }
+  
+  /* Submit button */
+  input[type=submit] {
+    background-color: rgba(0, 255, 200, 0.689);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(0, 187, 146, 0.596);
+  }
+  
+  /* background for the form*/
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
